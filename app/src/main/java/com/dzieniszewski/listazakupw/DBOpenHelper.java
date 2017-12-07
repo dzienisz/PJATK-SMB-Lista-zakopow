@@ -5,6 +5,9 @@ import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 
 public class DBOpenHelper extends SQLiteOpenHelper {
+
+    // CONSTS
+
     private static final int DATABASE_VERSION = 1;
     private static final String TABLE_NAME = "table_name";
     private static final String TABLE_CREATE =
@@ -24,4 +27,3 @@ public class DBOpenHelper extends SQLiteOpenHelper {
 
     }
 }
-
